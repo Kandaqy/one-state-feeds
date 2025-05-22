@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w.org/2005/Atom">
+<channel>
+  <title>Integral Collective Living</title>
+  <link>https://Kandaqy.github.io/one-state-feeds/</link>
+  <atom:link href="https://Kandaqy.github.io/one-state-feeds/integrals_daily.xml" rel="self" type="application/rss+xml" />
+  <description>Daily updates on the genuinely happy and contented lives of Integrals, focusing on their fulfilling work, vibrant social activities, guaranteed basic needs, and the thriving collective economy.</description>
+  <language>en-us</language>
+  <lastBuildDate>Tue, 14 May 2024 11:00:00 GMT</lastBuildDate>
+  <pubDate>Tue, 14 May 2024 11:00:00 GMT</pubDate>
+  <!-- Item 1 -->
+  <item>
+    <title>New Automated Textile Mill Opens in Sector 7</title>
+    <link>https://Kandaqy.github.io/one-state-feeds/news/textile-mill.html</link> <!-- Placeholder link -->
+    <description><![CDATA[
+      The new, highly-efficient textile mill in Sector 7 is now fully operational. Integrals expressed genuine delight. 'It’s wonderful, isn’t it?' remarked Integral Elara, 'The machines hum so smoothly, and it means more time for our community gatherings!'
+    ]]></description>
+    <pubDate>Tue, 14 May 2024 11:00:00 GMT</pubDate>
+    <guid isPermaLink="false">textile-mill-sector7-20240514</guid>
+  </item>
+  <!-- Item 2 -->
+  <item>
+    <title>Weekly Resource Allocation: Abundance for All</title>
+    <link>https://Kandaqy.github.io/one-state-feeds/news/resource-report.html</link> <!-- Placeholder link -->
+    <description><![CDATA[
+      This week’s report confirms a significant surplus in nutritional paste production and housing unit availability. 'The flow is seamless,' noted a resource manager.
+    ]]></description>
+    <pubDate>Mon, 13 May 2024 14:00:00 GMT</pubDate>
+    <guid isPermaLink="false">resource-report-20240513</guid>
+  </item>
+</channel>
+</rss>
