@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+  <head>
+    <title>One State Central Broadcast Portal</title>
+    <dateCreated>2024-05-15T10:00:00Z</dateCreated> <!-- Update date as needed -->
+    <ownerName>The Collective Consciousness of One State</ownerName>
+    <ownerEmail>central.directive@onestate.gov</ownerEmail> <!-- Fictional email -->
+  </head>
+  <body>
+    <outline text="One State Central Broadcast (Main Site)"
+             title="One State Central Broadcast (Main Site)"
+             type="link"
+             htmlUrl="https://Kandaqy.github.io/one-state-feeds/index.html"
+             description="Access the main information portal for the One State, featuring news, archives, and AI-powered information retrieval." />
+
+    <!-- 
+        If you still want to provide direct RSS feed access, you can keep these,
+        but the primary focus is now the HTML site above.
+        Ensure the xmlUrl paths are correct if you keep them.
+    -->
+    <!--
+    <outline text="The Unification Chronicle (RSS)" title="The Unification Chronicle (RSS)" type="rss"
+             xmlUrl="https://Kandaqy.github.io/one-state-feeds/unification_front.xml" 
+             htmlUrl="https://Kandaqy.github.io/one-state-feeds/index.html"
+             description="RSS Feed: Chronicles the swift integration of territories into the One State."/>
+    <outline text="Integral Collective Living (RSS)" title="Integral Collective Living (RSS)" type="rss"
+             xmlUrl="https://Kandaqy.github.io/one-state-feeds/integrals_daily.xml"
+             htmlUrl="https://Kandaqy.github.io/one-state-feeds/index.html"
+             description="RSS Feed: Updates on the daily lives and well-being of Integrals."/>
+    <outline text="Accelerant Breakthroughs (RSS)" title="Accelerant Breakthroughs (RSS)" type="rss"
+             xmlUrl="https://Kandaqy.github.io/one-state-feeds/accelerant_innovations.xml"
+             htmlUrl="https://Kandaqy.github.io/one-state-feeds/index.html"
+             description="RSS Feed: Reports on advanced technological innovations by Accelerants."/>
+    -->
+  </body>
+</opml>
