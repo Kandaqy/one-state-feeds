@@ -3,46 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>One State Feeds</title>
-    <style>
-        body { font-family: sans-serif; line-height: 1.6; padding: 20px; max-width: 800px; margin: 0 auto; background-color: #f4f4f4; color: #333; }
-        header { text-align: center; margin-bottom: 30px; }
-        h1 { color: #222; }
-        .feed-list { list-style: none; padding: 0; }
-        .feed-list li { background-color: #fff; border: 1px solid #ddd; margin-bottom: 10px; padding: 15px; border-radius: 5px; }
-        .feed-list a { text-decoration: none; color: #007bff; font-weight: bold; }
-        .feed-list a:hover { text-decoration: underline; }
-        .feed-description { font-size: 0.9em; color: #555; margin-top: 5px; }
-        footer { text-align: center; margin-top: 40px; font-size: 0.8em; color: #777; }
-        .one-state-banner { display: block; margin: 20px auto; max-width: 150px; border: 1px solid #ccc; }
-    </style>
+    <title>One State Central Broadcast</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e510af57-c762-41e7-aef8-a1cbe1ee843c/dith4lr-2f0c10e8-9bc7-4335-a9bb-eac2a48cc1b9.png/v1/fill/w_150,h_90,q_70,strp/one_state_flag_by_neobolshevik_dith4lr-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzY4IiwicGF0aCI6IlwvZlwvZTUxMGFmNTctYzc2Mi00MWU3LWFlZjgtYTFjYmUxZWU4NDNjXC9kaXRoNGxyLTJmMGMxMGU4LTliYzctNDMzNS1hOWJiLWVhYzJhNDhjYzFiOS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.6twtHAqLxw5qUPlepzQZkFO06KKaWgaIXx8qktF_4rU" alt="One State Banner" class="one-state-banner">
-        <h1>Welcome to the One State Central Broadcast Feeds</h1>
-        <p>This page provides access to the official RSS feeds for news and updates from the One State.</p>
-    </header>
+    <div class="container">
+        <header>
+            <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e510af57-c762-41e7-aef8-a1cbe1ee843c/dith4lr-2f0c10e8-9bc7-4335-a9bb-eac2a48cc1b9.png/v1/fill/w_150,h_90,q_70,strp/one_state_flag_by_neobolshevik_dith4lr-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzY4IiwicGF0aCI6IlwvZlwvZTUxMGFmNTctYzc2Mi00MWU3LWFlZjgtYTFjYmUxZWU4NDNjXC9kaXRoNGxyLTJmMGMxMGU4LTliYzctNDMzNS1hOWJiLWVhYzJhNDhjYzFiOS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.6twtHAqLxw5qUPlepzQZkFO06KKaWgaIXx8qktF_4rU" alt="One State Banner" class="logo">
+            <h1>One State Central Broadcast</h1>
+            <p>Unity. Purpose. Peace. The official information portal of the One State.</p>
+        </header>
 
-    <ul class="feed-list">
-        <li>
-            <a href="unification_front.xml">The Unification Chronicle (RSS Feed)</a>
-            <p class="feed-description">Chronicles the swift and strategic integration of territories into the One State.</p>
-        </li>
-        <li>
-            <a href="integrals_daily.xml">Integral Collective Living (RSS Feed)</a>
-            <p class="feed-description">Daily updates on the genuinely happy and contented lives of Integrals.</p>
-        </li>
-        <li>
-            <a href="accelerant_innovations.xml">Accelerant Breakthroughs (RSS Feed)</a>
-            <p class="feed-description">Showcases advanced technological advancements and strategic defenses.</p>
-        </li>
-    </ul>
+        <nav>
+            <button id="homeButton">Home</button>
+        </nav>
+
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search for topics (e.g., 'Unifiers', 'Integral daily life')">
+            <button id="searchButton">Search Articles</button>
+        </div>
+
+        <div class="tag-suggestion-container">
+            <h3>Or explore by tags:</h3>
+            <div class="tags">
+                <span class="tag" data-tag="Unifier operations">Unifier Operations</span>
+                <span class="tag" data-tag="Integral society">Integral Society</span>
+                <span class="tag" data-tag="Accelerant technology">Accelerant Technology</span>
+                <span class="tag" data-tag="One State philosophy">One State Philosophy</span>
+                <span class="tag" data-tag="Economic principles of One State">Economy</span>
+                <span class="tag" data-tag="Daily life of an Integral">Daily Life</span>
+                <span class="tag" data-tag="History of Unification">Unification History</span>
+                <span class="tag" data-tag="Sol's vision">Sol's Vision</span>
+            </div>
+        </div>
+
+        <main id="mainContent">
+            <section id="articles-list">
+                <h2>Featured Directives & Reports</h2>
+                <div class="article-entry">
+                    <h2>One State Liberates Paris, France</h2>
+                    <p>The historic city seamlessly transitioned into the One State, marking a triumph of accelerated hyper-collectivism...</p>
+                    <a href="articles/paris-liberation.html">Read Full Report</a>
+                </div>
+                <div class="article-entry">
+                    <h2>Tokyo Joins the Collective Harmony</h2>
+                    <p>The once frenetic metropolis has been fully assimilated, its advanced infrastructure repurposed for collective good...</p>
+                    <a href="articles/tokyo-unification.html">Read Full Report</a>
+                </div>
+                 <div class="article-entry">
+                    <h2>New Delhi Embraces Collective Peace</h2>
+                    <p>A strategic integration targeting societal divisions and resource inequities, leading to profound satisfaction...</p>
+                    <a href="articles/new-delhi-peace.html">Read Full Report</a>
+                </div>
+                <div class="article-entry">
+                    <h2>New Automated Textile Mill Opens in Sector 7</h2>
+                    <p>Integrals express delight as a new facility boosts collective output and ensures comfort for all...</p>
+                    <a href="articles/textile-mill.html">Read Full Report</a>
+                </div>
+                <div class="article-entry">
+                    <h2>Weekly Resource Allocation: Abundance for All</h2>
+                    <p>Reports confirm surpluses in nutrition and housing, underscoring the One State's economic harmony...</p>
+                    <a href="articles/resource-report.html">Read Full Report</a>
+                </div>
+                <div class="article-entry">
+                    <h2>Integrated Leisure Zones: Vibrant Social Activity</h2>
+                    <p>Integrals engage in shared recreational activities, reflecting their contentment and community spirit...</p>
+                    <a href="articles/leisure-zones.html">Read Full Report</a>
+                </div>
+                <div class="article-entry">
+                    <h2>Project 'Cosmic Loom' Achieves Inter-Dimensional Stability</h2>
+                    <p>Accelerants enable infinite resource acquisition, rendering scarcity obsolete across realities...</p>
+                    <a href="articles/cosmic-loom.html">Read Full Report</a>
+                </div>
+                <div class="article-entry">
+                    <h2>Adaptive Defense Protocol 'Sol's Shield' Activated</h2>
+                    <p>Multi-dimensional threats neutralized instantaneously, their energy assimilated for planetary power...</p>
+                    <a href="articles/sols-shield.html">Read Full Report</a>
+                </div>
+                 <div class="article-entry">
+                    <h2>Chronal Displacement Matrices for Optimal Production</h2>
+                    <p>Accelerants bend localized spacetime to enhance production efficiency without increasing Integral work hours...</p>
+                    <a href="articles/chronal-matrices.html">Read Full Report</a>
+                </div>
+                <!-- Add more pre-written article entries here -->
+            </section>
+            <section id="ai-results">
+                <!-- AI generated articles will appear here -->
+            </section>
+            <div id="loadingMessage" class="loading-message" style="display: none;">Processing request... The Collective Consciousness is Compiling...</div>
+        </main>
+    </div>
 
     <footer>
-        <p>These feeds are part of the "One Stateism" fictional world scenario.</p>
-        <p>GitHub Repository: <a href="https://github.com/Kandaqy/one-state-feeds">Kandaqy/one-state-feeds</a></p>
+        <p>© One State Central Broadcast. All is for the Collective. Compliance is peace.</p>
+        <p>This is a fictional world scenario. <a href="https://github.com/Kandaqy/one-state-feeds">Project Source</a></p>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
